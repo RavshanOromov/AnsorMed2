@@ -150,6 +150,7 @@ color: #de2e54;
   font-weight: 400;
   font-style: normal;
   opacity: 0.9;
+  margin-bottom: 36px;
 }
 .hero-button:hover {
 background-color: rgba(222, 46, 84, 0.8);
