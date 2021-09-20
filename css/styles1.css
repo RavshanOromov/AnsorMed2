@@ -48,8 +48,6 @@ body {
 }
 .logo-link:active {
   opacity: 0.6;
-  outline: 2px dotted #de2e54;
-  outline-offset: 2px;
 }
 
 .logo-link h3 {
@@ -84,8 +82,6 @@ body {
 }
 .header-nav-link:active {
   opacity: 0.6;
-  outline: 2px dotted #de2e54;
-  outline-offset: 2px;
 }
 .button {
   font-family:"Open Sans Condenced" ;
@@ -110,8 +106,6 @@ color: #de2e54;
 .header-button:active {
   background-color: #de2e54;
   color: #ffffff;
-  outline: 2px dotted #de2e54;
-  outline-offset: 2px;
 }
 
 /* ==========hero======= */
@@ -158,8 +152,6 @@ background-color: rgba(222, 46, 84, 0.8);
 }
 .hero-button:active {
   background-color: rgba(222, 46, 84, 0.6);
-  outline: 2px dotted #de2e54;
-  outline-offset: 2px;
 }
 /* ========services======= */
 .services-bg {
@@ -207,6 +199,7 @@ background-color: rgba(222, 46, 84, 0.8);
 }
 .services-button {
   text-align: center;
+  margin-bottom: 120px;
 }
 .services-button a:hover {
 background-color: #ffffff;
@@ -219,8 +212,6 @@ box-sizing: border-box;
   color: #ffffff;
   opacity: 0.6;
   border: 2px solid #de2e54;
-  outline: 2px dotted #de2e54;
-  outline-offset: 2px;
 }
 /* ============cta======== */
 .cta {
@@ -266,8 +257,6 @@ border: 2px solid #de2e54;
 }
 .cta-button:active {
 opacity: 0.6;
-outline: 2px dotted #de2e54;
-outline-offset: 2px;
 }
 .phone-call {
   margin-right: 40px;
@@ -309,8 +298,6 @@ outline-offset: 2px;
 }
 .footer-link:active {
 opacity: 0.6;
-outline: 2px dotted #de2e54;
-outline-offset: 2px;
 }
 .footer-link img {
   margin-right: 16px;
@@ -342,6 +329,4 @@ outline-offset: 2px;
 }
 .footer-item:active {
   opacity: 0.6;
-  outline: 2px dotted #de2e54;
-  outline-offset: 2px;
 }
