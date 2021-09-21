@@ -9,6 +9,10 @@ body {
   padding: 0;
   margin: 0;
 }
+*:focus {
+  outline: 2px dotted #ff7500;
+  outline-offset: 3px;
+}
 /* ==========site-header========= */
 
 .site-header {
@@ -45,6 +49,7 @@ body {
 }
 .logo-link:hover {
  color:#de2e54;
+
 }
 .logo-link:active {
   opacity: 0.6;
@@ -289,6 +294,7 @@ opacity: 0.6;
 }
 .footer-link:active {
 opacity: 0.6;
+transition: opacity 0.4s ease;
 }
 .footer-link img {
   margin-right: 16px;
@@ -314,10 +320,12 @@ opacity: 0.6;
   margin-right: 32px;
   text-decoration: none;
   text-transform: uppercase;
+  transition: opacity 0.4s ease;
 }
 .footer-item:hover {
   color: rgba(222, 46, 84, 1);
 }
 .footer-item:active {
   opacity: 0.6;
+
 }
