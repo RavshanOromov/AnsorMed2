@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 *:focus {
-  outline: 2px dotted #ff7500 3s;
+  outline: 2px dotted #ff7500;
   outline-offset: 3px;
 }
 /* ==========site-header========= */
@@ -117,7 +117,7 @@ color: #de2e54;
 
 .hero {
   width: 1440px;
-  height: 525px;
+  /* height: 525px; */
   background-color: rgba(14, 180, 193, 1);
   align-items: center;
 }
@@ -133,7 +133,7 @@ color: #de2e54;
 }
 .hero-content-heading {
   width: 500px;
-  font-family: "Open Sans Condensed" "serif";
+  font-family: "Open Sans" "Condenced" "serif";
   font-weight: bold;
   font-style: normal;
   font-size: 36px;
@@ -156,6 +156,10 @@ background-color: rgba(222, 46, 84, 0.8);
 .hero-button:active {
   background-color: rgba(222, 46, 84, 0.6);
 }
+.hero-image {
+align-self: flex-end;
+}
+
 /* ========services======= */
 .services-bg {
   width: 1440px;
@@ -163,7 +167,7 @@ background-color: rgba(222, 46, 84, 0.8);
 .services-heading {
   margin-top: 0;
   margin-bottom: 56px;
-  font-family:"Open Sans Condenced", "Arial", sans-serif;
+  font-family: "Open Sans Condenced", "Arial", sans-serif;
   text-align: center;
   color: #000;
   line-height: 1.2;
