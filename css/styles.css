@@ -48,7 +48,8 @@ body {
   transition: background-color 0.4s ease;
 }
 .logo-link:hover {
- color:#de2e54;
+  transform: scale(1.5);
+  color:#de2e54;
 
 }
 .logo-link:active {
@@ -83,6 +84,7 @@ body {
   margin-right: 32px;
 }
 .header-nav-link:hover{
+  transform: scale(1.5);
   color: #de2e54;
 }
 .header-nav-link:active {
@@ -105,6 +107,7 @@ body {
   transition: background-color 0.4s ease;
 }
 .header-button:hover {
+transform: scale(1.5);
 background-color: #ffffff;
 color: #de2e54;
 }
@@ -151,7 +154,8 @@ color: #de2e54;
   margin-bottom: 36px;
 }
 .hero-button:hover {
-background-color: rgba(222, 46, 84, 0.8);
+  transform: scale(1.5);
+  background-color: rgba(222, 46, 84, 0.8);
 }
 .hero-button:active {
   background-color: rgba(222, 46, 84, 0.6);
@@ -207,6 +211,7 @@ align-self: flex-end;
   margin-bottom: 120px;
 }
 .services-button a:hover {
+  transform: scale(1.5);
 background-color: #ffffff;
 color: #de2e54;
 border: 2px solid #de2e54;
@@ -258,6 +263,7 @@ box-sizing: border-box;
 }
 .cta-button:hover {
 background-color: #de2e54;
+transform: scale(1.5);
 border: 2px solid #de2e54;
 }
 .cta-button:active {
@@ -294,6 +300,7 @@ opacity: 0.6;
   align-items: center;
 }
 .footer-link:hover {
+  transform: scale(1.5);
   color: rgba(222, 46, 84, 1);
 }
 .footer-link:active {
@@ -327,6 +334,7 @@ transition: opacity 0.4s ease;
   transition: opacity 0.4s ease;
 }
 .footer-item:hover {
+  transform: scale(1.5);
   color: rgba(222, 46, 84, 1);
 }
 .footer-item:active {
